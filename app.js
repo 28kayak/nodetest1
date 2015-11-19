@@ -1,3 +1,4 @@
+//create a bunch of basic javascript variables and ties them to certain packages, dependencies, node functionality and routes
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
@@ -8,7 +9,7 @@ var bodyParser = require('body-parser');
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
-var app = express();
+var app = express();//instantiates Express and assigns our app variable to it.
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
